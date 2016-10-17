@@ -20,4 +20,13 @@ the value corresponding to the "answer" key (without the surrounding quotes)
 from the document returned.
 
 Solution:
+> use m101
+switched to db m101
+> m101.hw1_1.find()
+2016-10-17T15:11:56.995-0400 E QUERY    [thread1] ReferenceError: m101 is not defined :
+@(shell):1:1
+
+> db.hw1_1.find()
+{ "_id" : ObjectId("51e4524ef3651c651a42331c"), "answer" : "Hello from MongoDB!" }
+
 
